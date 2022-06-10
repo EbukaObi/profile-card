@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --margin-pic: 50px;
+    --border-radius: 50%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 1440px;
+    max-width: 100%;
+    margin: 100px auto;
+    /* border: 1px solid red; */
+    padding: 80px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(97, 158, 207);
+    
+}
+.oga{
+    /* border: 1px solid steelblue; */
+    max-width: 60rem;
+    border-radius: 35px;
+    min-height: 300px;
+}
+
+.upper{
+/* border: 1px solid green; */
+border-top-right-radius: 35px;
+border-top-left-radius: 35px;
+height: 180px;
+display: flex;
+justify-content: center;
+background-image: url(bg-pattern-card.svg);
+}
+
+.pic{
+    border: 7px solid white;
+    background-color: white;
+    height: 65%;
+    max-width: 27%;
+    border-radius: var(--border-radius);
+    margin-top: 120px;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius);
+}
+
+
+.lower{
+/* border: 1px solid rgb(128, 0, 79); */
+border-bottom-right-radius: 35px;
+border-bottom-left-radius: 35px;
+height: 320px;
+background-color: white;
+display: grid;
+/* justify-content: center; */
+/* align-items: center; */
+
+}
+
+h3{
+    font-size: 23px;
+}
+
+.ts,p{
+    font-size: 20px;
+    color: gray;
+}
+
+.data{
+    height: 130px;            
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 100%;
+    padding-bottom: 7px;
+    margin-top: 70px;
+}
+
+h2{
+    color: rgba(197, 192, 192, 0.979);
+    margin-top: -20px;
+    padding-left: 8px;
+    padding-right: 2px;
+}
+
+.num{
+    /* border: 1px solid green; */
+    height: 100px;
+    padding: 15px;
+}
+
+.stat{
+    /* border: 1px solid black; */
+    margin: 0 20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.stat h3{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.tag{
+    /* border: 1px solid brown; */
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.one{
+    text-align: center;
+}
+
+.two{
+    text-align: center;
+}
+
+.three{
+    text-align: center;
+}
+
+li p{
+    font-size: 16px;
+}
+
+/* @media (max-width: 840px) { */
+    .section{
+        width:100%;
+        padding: 10px;
+    }
+
+
